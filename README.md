@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source Code](https://github.com/waltersono/calculator-app)
-- Live Site URL: [View on Browser](https://waltersono.github.io/calculator-app/)
+- Solution URL: [Source Code](https://github.com/waltersono/faq-accordion-card)
+- Live Site URL: [View on Browser](https://waltersono.github.io/faq-accordion-card/)
 
 ## My process
 
