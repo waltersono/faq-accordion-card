@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="app.css">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link href="https://fonts.googleapis.com/css?family=Kumbh+Sans:400,700&display=swap" rel="stylesheet" />
+
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+
+  <main class="main">
+    <div class="accordian">
+      <div class="accordian__image-box">
+        <img src="images/illustration-box-desktop.svg" alt="Box icon" class="box-icon">
+        <picture class="accordian__image-content">
+          <source srcset="images/illustration-woman-online-desktop.svg" media="(min-width: 750px)">
+          <img src="images/illustration-woman-online-mobile.svg" alt="Women online">
+        </picture>
+        <picture class="accordian__image-shadow">
+          <source srcset="images/bg-pattern-desktop.svg" media="(min-width: 750px)">
+          <img src="images/bg-pattern-mobile.svg" alt="Image shadow">
+        </picture>
+      </div>
+
+      <div class="accordian__content">
+        <h1 class="accordian__title">FAQ</h1>
+        <ul class="accordian__list">
+
+          <li class="accordian__item">
+            <h2 class="accordian__subtitle">How many team members can I invite?
+              <img src="images/icon-arrow-down.svg" alt="Arrow down icon" class="accordian__arrow">
+            </h2>
+
+            <p class="accordian__description">
+              You can invite up to 2 additional users on the Free plan. There is no limit on
+              team members for the Premium plan.
+            </p>
+          </li>
+          <li class="accordian__item">
+            <h2 class="accordian__subtitle ">What is the maximum file upload size?
+              <img src="images/icon-arrow-down.svg" alt="Arrow down icon"
+                class="accordian__arrow  accordian__arrow--upword">
+
+            </h2>
+            <p class="accordian__description">
+              No more than 2GB. All files in your account must fit your allotted storage space.
+            </p>
+          </li>
+          <li class="accordian__item">
+            <h2 class="accordian__subtitle">How do I reset my password?
+              <img src="images/icon-arrow-down.svg" alt="Arrow down icon" class="accordian__arrow">
+            </h2>
+            <p class="accordian__description">
+              Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.
+
+            </p>
+          </li>
+          <li class="accordian__item">
+            <h2 class="accordian__subtitle">Can I cancel my subscription?
+              <img src="images/icon-arrow-down.svg" alt="Arrow down icon" class="accordian__arrow">
+
+            </h2>
+            <p class="accordian__description">
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </p>
+          </li>
+          <li class="accordian__item">
+            <h2 class="accordian__subtitle">Do you provide additional support?
+              <img src="images/icon-arrow-down.svg" alt="Arrow down icon" class="accordian__arrow">
+            </h2>
+            <p class="accordian__description">
+              Chatand email support is available 24/7. Phone lines are open during normal business hours.
+            </p>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+  </main>
+
+
+
+
+
+
+
+
+
+  <!-- <footer class="footer">
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer> -->
+</body>
+
+</html>
